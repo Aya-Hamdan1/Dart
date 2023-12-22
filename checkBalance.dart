@@ -24,6 +24,7 @@ void main(){
   print('$isBalance');
   String isBalance2 = check(e2) ?'The Expression is Balance ':'The Expression is not Balance';
   print('$e2');
+  
   print('$isBalance2');
 
 
