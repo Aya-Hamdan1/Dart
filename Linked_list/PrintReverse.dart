@@ -4,10 +4,7 @@ import 'Node.dart';
 List<String> printReverse<T>(LinkedList<T> myList){
   String value = '';
   List<String> reversedList = [];
-  // if(myList.head != null){
-  //   print('null');
-  //   return reversedList;
-  // }
+  
   var current = myList.head;
   var n;
   while (current!.next != myList.tail) {
